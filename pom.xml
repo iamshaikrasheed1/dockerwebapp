@@ -6,7 +6,7 @@
     <packaging>war</packaging>
     <version>v2</version>
     <name>Devops Webapp</name>
-<!---sonarqube--->
+<!-- sonarqube -->
 	<build>
         <plugins>
             <plugin>
