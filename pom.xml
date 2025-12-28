@@ -188,7 +188,7 @@
             <version>3.4.0</version>
         </plugin>
 
-        <!-- Code Coverage -->
+        <!-- CODE COVERAGE -->
         <plugin>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>
@@ -220,6 +220,7 @@
 
     </plugins>
 </build>
+
 
 
 			
