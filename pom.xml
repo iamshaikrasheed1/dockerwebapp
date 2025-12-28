@@ -6,17 +6,6 @@
     <packaging>war</packaging>
     <version>v2</version>
     <name>Devops Webapp</name>
-<!-- sonarqube -->
-	<build>
-        <plugins>
-            <plugin>
-                <groupId>org.sonarsource.scanner.maven</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.9.1.2184</version>
-            </plugin>
-        </plugins>
-    </build>
-
     <url>http://maven.apache.org</url>
     <properties>
         <spring.version>4.2.0.RELEASE</spring.version>
@@ -194,7 +183,14 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>3.4.0</version> <!-- or latest stable -->
 			</plugin>
+			<plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.1.2184</version>
+            </plugin>
+		</build>
 
+			
 			
 		<!-- CODE COVERAGE -->
  		    <plugin>
